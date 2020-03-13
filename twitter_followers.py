@@ -42,7 +42,7 @@ async def main(connection):
                 urllib.request.urlopen(request).read().decode()
             )['data']['public_metrics']['followers_count']
             return f'🐦 {followers}'
-        except:
+        except Exception:
             raise
         else:
             return f'🐦 {followers}'
