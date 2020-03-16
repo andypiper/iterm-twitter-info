@@ -7,6 +7,8 @@ import iterm2
 USER_KNOB_NAME = 'TWITTER_USER'
 TOKEN_KNOB_NAME = 'BEARER_TOKEN'
 
+# TODO: add icons https://iterm2.com/python-api/examples/weather.html
+
 
 async def main(connection):
     twitter_user = None
