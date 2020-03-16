@@ -11,5 +11,5 @@ for script in $(ls *.py); do
     cp $script "$iterm_scripts_dir/$script"
 done
 
-echo "Next, enable the Python runtime (Preferences->General->Magic->Enable Python Runtime)"
+echo "Next, enable the Python runtime (Preferences->General->Magic->Enable Python API)"
 echo "Set the scripts to run via Menu->Scripts->AutoLaunch."
