@@ -23,7 +23,7 @@ async def main(connection):
         short_description='Twitter followers',
         detailed_description='Shows count of Twitter followers',
         exemplar='3401',
-        update_cadence=300,
+        update_cadence=600,
         identifier='andypiper.iterm-twitter-info.user-count',
         knobs=[
             iterm2.StringKnob('Twitter user', 'username',
