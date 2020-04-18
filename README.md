@@ -1,5 +1,7 @@
 # iTerm-Twitter-Info
 
+[![Labs v2](https://img.shields.io/static/v1?label=Twitter%20API&message=Developer%20Labs%20v2&color=794BC4&style=flat&logo=Twitter)](https://developer.twitter.com/en/docs/labs/overview/versioning)
+
 Some scripts and examples for bringing Twitter data to your [iTerm](https://iterm2.com)
 
 iTerm2 has a configurable status bar which can include all kinds of additional information.
