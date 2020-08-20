@@ -48,7 +48,7 @@ async def main(connection):
         await session.async_set_variable("user.twitter_user", twitter_user)
 
         # this is the API endpoint to get user data, with metrics requested
-        user_url = f'https://api.twitter.com/labs/2/users/by/username/{twitter_user}?user.fields=public_metrics'
+        user_url = f'https://api.twitter.com/2/users/by/username/{twitter_user}?user.fields=public_metrics'
 
         try:
             request = urllib.request.Request(
